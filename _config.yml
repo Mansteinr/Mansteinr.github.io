@@ -3,13 +3,19 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 前端博客
+title: Planck博客
 subtitle: ''
 description: ''
 keywords:
 author: John Doe
 language: en
 timezone: ''
+tags: true
+categories: true
+style:
+    categories:
+        # support line, list; default list
+        display: line
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -97,6 +103,11 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: tree
+
+# name for left side bar post list
+sidebar:
+    # ture: title name; false: file name
+    usePostTitle: true
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
